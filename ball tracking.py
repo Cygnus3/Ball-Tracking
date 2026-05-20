@@ -8,7 +8,7 @@ def rescaleFrame(frame , scale = 0.5):  # rescaling to ensure video fits on scre
 
     return cv.resize(frame , dimensions , interpolation = cv.INTER_AREA)
 
-capture = cv.VideoCapture(r"C:\Users\hansi\OneDrive\Documents\ibot vids\1.mp4")
+capture = cv.VideoCapture(r"Video1.mp4") # Enter File Path here
 
 while True:
     isTrue , frame = capture.read()
