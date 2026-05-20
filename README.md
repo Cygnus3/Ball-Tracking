@@ -29,7 +29,9 @@ Occlusion Handling (Video 2) – Last known position displayed in red when ball 
 **Output:**
 
 Green circle: actively detected ball with center coordinates and radius
+
 Red circle (Video 2): last known position when ball is occluded
+
 Coordinates and radius printed to console each frame and also overlaied on the frame.
 
 **Requirements:** 
