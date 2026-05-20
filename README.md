@@ -1,6 +1,7 @@
 # Ball-Tracking
 
-Real-time ball tracking system for an Autonomous Mobile Robot (AMR) using OpenCV. Detects and tracks a moving red ball from video input and outputs its center coordinates (x, y) and radius for every frame, enabling closed-loop control.
+Real-time ball tracking system for an Autonomous Mobile Robot (AMR) using OpenCV. 
+Detects and tracks a moving red ball from video input and outputs its center coordinates (x, y) and radius for every frame, enabling closed-loop control.
 
 How it works:
 
