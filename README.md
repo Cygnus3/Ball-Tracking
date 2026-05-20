@@ -6,10 +6,15 @@ Detects and tracks a moving red ball from video input and outputs its center coo
 How it works:
 
 Rescale – Frame is downscaled to 50% for performance
+
 HSV Conversion – Frame converted to HSV for reliable color-based masking
+
 Color Masking – Dual HSV range used for red (since red wraps around the hue spectrum at 0° and 180°)
+
 Contour Detection – Contours found on the binary mask
+
 Ball Localization – Minimum enclosing circle gives center (x, y) and radius
+
 Overlay – Circle and coordinates drawn on the original frame
 
 Output :
