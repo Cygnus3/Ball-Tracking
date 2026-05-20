@@ -3,7 +3,7 @@
 Real-time ball tracking system for an Autonomous Mobile Robot (AMR) using OpenCV. 
 Detects and tracks a moving red ball from video input and outputs its center coordinates (x, y) and radius for every frame, enabling closed-loop control.
 
-How it works:
+**How it works:**
 
 Rescale – Frame is downscaled to 50% for performance
 
@@ -17,19 +17,20 @@ Ball Localization – Minimum enclosing circle gives center (x, y) and radius
 
 Overlay – Circle and coordinates drawn on the original frame
 
-Output :
+
+**Output :**
 
 Green circle drawn around the ball
 Center coordinates and radius printed to console and overlaid on frame
 
-Requirements:
+**Requirements:**
 pip install opencv-python numpy
 
-Usage:
+**Usage:**
 
 Update the video path in the code and run:
      "ball tracking.py"
      Press d to exit.
 
-NOTE : Video file not included. Place your input video at the path specified in the code.
+**NOTE** : Video file not included. Place your input video at the path specified in the code.
 
